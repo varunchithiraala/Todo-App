@@ -1,0 +1,111 @@
+.todos-list-container {
+  width: 90%;
+  max-width: 990px;
+  margin: 6px auto;
+  display: flex;
+}
+
+@media screen and (min-width: 576px) {
+  .todos-list-container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .todos-list-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .todos-list-container {
+    width: 50%;
+  }
+}
+
+.checkbox {
+  height: 18px;
+  width: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox {
+    height: 22px;
+    width: 22px;
+  }
+}
+
+.label-container {
+  background-color: #e6f6ff;
+  height: 30px;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .label-container {
+    height: 40px;
+  }
+}
+
+.update-text {
+  background-color: #e6f6ff;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 2px solid #0066ff;
+  border-left: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .update-text {
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+.line-through {
+  color: #ff6666;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 4px;
+  margin-left: 4px;
+  text-decoration: line-through;
+}
+
+@media screen and (min-width: 768px) {
+  .line-through {
+    font-size: 20px;
+  }
+}
+
+.todo {
+  color: #0a0a0a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 4px;
+  margin-left: 4px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .todo {
+    font-size: 20px;
+  }
+}
+
+.actions-box{
+  background-color: #e6f6ff;
+  cursor: pointer;
+}

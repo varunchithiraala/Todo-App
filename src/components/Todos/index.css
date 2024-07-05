@@ -1,0 +1,40 @@
+.todos-container {
+  background-color: #e6e6e6;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todos-heading {
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-all-btn {
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 150px;
+  border: none;
+  border-radius: 4px;
+}
+
+.save-btn{
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 150px;
+  border: none;
+  border-radius: 4px;
+}
+  
